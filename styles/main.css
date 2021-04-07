@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
  img{
-    width: 4%;
-    margin-left: 35%;
+    max-width: 5%;
+    margin-left: 43%;
+    min-width: 45px;
 }
 
 .logo h1{
@@ -30,7 +31,7 @@
 }
 
 body {
-  background: #0000FF;
+  background: #032b80;
 }
 
 h1 {
@@ -42,7 +43,7 @@ h4 {
 }
 
 content {
-  margin-left: 350px;
+  margin-left: 350%;
 }
 
 
@@ -51,7 +52,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFD700; 
+  background-color: #ffcc00; 
 }
 
 li {
@@ -129,7 +130,7 @@ li.dropdown {
     font-family: Arial, Helvetica, sans-serif;
     /* border-collapse: collapse; */
     width: 80%;
-    margin-top: 35px;
+    margin-top: 3%;
     margin-left: 8%;
     text-align: center;
   }
@@ -147,30 +148,28 @@ li.dropdown {
 
   #customers th {
     /* margin-top: 35px; */
-    background-color: #4CAF50;
+    background-color: #1C1C1C;
     color: white;
   }
 
   .button {
-    background-color: orange; /* Green */
+    background-color: #ffcc00; /* Green */
     border: none;
     color: black;
-    padding: 15px 15%;
+    padding: 2% 15%;
     text-align: center;
-    text-decoration: none;
+    /* text-decoration: none; */
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     margin-top: 2%;
     /* cursor: pointer; */
     /* float: center; */
   }
 
   .Notdisabled {
-    /* margin: 0; */
     border-radius: 8px;
-    /* width: 12%; */
     margin-left: 1%;
-    /* text-align: center; */
+    /* width: 20%; */
   }
 
   .disabled {
